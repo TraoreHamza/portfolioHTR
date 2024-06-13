@@ -1,0 +1,296 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+header img[src="img/burger.png"] {
+    width: 20px;
+    height: 20px;
+}
+nav {
+    display: none;
+}
+.promotion {
+    background: #000;
+    color: #fff;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.section1 {
+    padding: 10px;
+}
+.section1 a {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(212, 157, 171);
+    margin-top: 10px;
+}
+.section1 span {
+     background-color: rgb(229, 44, 204);
+     display: block;
+     margin: 0;
+     margin-right: 10px;
+     padding: 10px;
+}
+
+.section1 img {
+    width: 90%;
+    margin: 10px auto;  
+}
+.para-mobile, .paragraphe {
+    background: #000;
+    color: #fff;
+    padding: 10px;
+}
+
+.blue {
+    background: rgb(124, 137, 182);
+    padding: 10px;
+}
+.blue img {
+    width: 80%;
+}
+.blue a {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(218, 196, 201);
+    margin-top: 10px;
+}
+.blue span {
+     background-color: rgb(175, 23, 23);
+     display: block;
+     margin: 0;
+     margin-right: 10px;
+     padding: 10px;
+}
+.green {
+    background-color: rgb(32, 216, 130);
+    padding: 10px;
+}
+.green details {
+    padding-top: 30px;
+}
+.green p {
+    padding: 40px;
+}
+
+.green a {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(185, 169, 21);
+    margin-top: 10px;
+}
+.green span {
+     background-color: rgb(230, 238, 162);
+     display: block;
+     margin: 0;
+     margin-right: 10px;
+     padding: 10px;
+}
+details {
+    border-bottom: 2px solid #000;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+}
+.image img {
+    width: 150px;
+    height: 150px;
+}
+.violet {
+    background: violet;
+    padding: 10px;
+}
+.jacobs {
+    display: none;
+}
+.room {
+    background-color: rgb(160, 156, 156);
+    padding-top: 30px;
+    padding-bottom: 30px;
+   
+}
+.room div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    margin: 10px;
+    gap: 20px;
+}
+.room img {
+    width: 120px;
+    height: 120px;
+}
+.room h3 {
+    text-align: center;
+}
+.room article {
+    border-bottom: 2px solid black;
+  
+}
+
+footer {
+    background-color: rgb(197, 131, 183);  
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+footer h4 {
+    text-align: center;
+}
+footer span {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px; 
+}
+footer a {
+    background-color: rgb(192, 223, 107);
+    padding: 30px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.3rem;
+    border-radius: 15px;
+    border-left: 10px solid black;
+}
+@media screen and (min-width:772px) {
+    header {
+        justify-content: flex-start;
+    }
+    nav {
+        display: block;
+        width: 50%;
+    }
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    nav a {
+        text-decoration: none;
+        color:#000;
+    }
+    header img[src="img/burger.png"] {
+        display: none;
+    }
+    .mural {
+        font-size: 2.5rem;
+        padding-bottom: 100px; 
+    }
+    .mural a {
+        font-size: 1rem;
+    }
+    .section1 {
+        display: flex;
+        align-items: center;
+    }
+    .section1 img {
+        width: 50%;
+        margin-left: 20%;
+    }
+    .para-mobile {
+        display: none;
+    }
+    .papa {
+        display: flex;
+        align-items: center;
+    }
+
+    .papa img {
+        width: 20%;
+    }
+    .papa div {
+        padding: 20px;
+    }
+    .green {
+        display: none;
+    }
+    .violet {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+
+    .image {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 10px;
+    }
+    .image img {
+        width: 150px;
+        height: 150px;
+    }
+    .jacobs {
+        display: flex;
+        flex-direction: column;
+    }
+    .jacobs-logo {
+        display: flex;
+        background-color: #000;
+        color: #fff;
+        padding: 0;
+      
+    }
+    .jacobs-logo p {
+        margin: 20px;
+    }
+    .jacobs-logo img {
+        width: 150px;
+        height: 150px;
+    }
+    .border {
+        display: flex;
+        margin: 0 auto;
+    }
+    .flex {
+        display: flex;
+        justify-content: space-around;
+    }
+    .room {
+        background-color: rgb(160, 156, 156);
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .room div {
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+    }
+    .room img {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .room h3{
+        text-align: center;
+    }
+    
+}

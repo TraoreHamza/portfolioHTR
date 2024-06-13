@@ -1,0 +1,252 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: linear-gradient(rgba(173, 177, 189, 0.63), rgb(2 22 44 / 71%)),url(images/me2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+h1 {
+   color: #fff;
+   text-align: center;
+   padding-top: 350px;
+   padding-bottom: 10px;
+   font-size: 3rem;
+}
+h3 {
+  color: #5783bd;
+  text-align: center;
+  padding-bottom: 100px;
+  font-size: 3rem;
+  font-weight: 100;
+}
+p {
+    text-align: center;
+    color: #fff;
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 2rem;
+}
+
+.background-color {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 100px;
+}
+
+ .project {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 10px;
+ }
+
+article {
+    width: 360px;
+    height: 360px;
+    position: relative;
+    
+}
+article div {
+  position: absolute;
+  margin: 0 auto;
+  bottom: 0;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  font-size: 0.7rem;
+
+
+}
+
+.project1-text {
+ background: #1a800d75;
+}
+
+.project2-text {
+  background: #ecb11f80;
+ }
+
+ .project3-text {
+  background: #0e61c08a;
+ }
+
+ .project4-text {
+  background: #e6653eb5;
+ }
+
+ .project5-text {
+  background: #18bed48a;
+ }
+
+ .project6-text {
+  background: #52f1dc9e;
+ }
+
+ .project7-text {
+  background:  #e2485d94;
+ }
+
+ .project8-text {
+  background: #1a800d75;
+ }
+
+ .project9-text {
+  background:  #18bed48a;
+ }
+ .project1 {
+   background: url(images/vert.jpg);
+   background-size: cover;
+ }
+
+ .project1:hover {
+  background: url(images/sansVert.jpg);
+  background-size: cover;
+ }
+
+.project2{
+  background: url(images/jaune.jpg);
+  background-size: cover;
+}
+
+.project2:hover {
+  background: url(images/sansJaune.jpg);
+  background-size: cover;
+}
+
+.project3 {
+  background: url(images/bleu.jpg);
+  background-size: cover;
+}
+
+.project3:hover {
+  background: url(images/sansBleu.jpg);
+  background-size: cover;
+}
+
+.project4 {
+  background: url(images/rouge.jpg);
+  background-size: cover;
+}
+
+.project4:hover {
+  background: url(images/sansRouge.jpg);
+  background-size: cover;
+}
+
+.project5{
+  background: url(images/bleuClair.jpg);
+  background-size: cover;
+}
+
+.project5:hover {
+  background: url(images/sansBleuClair.jpg);
+  background-size: cover;
+}
+
+.project6 {
+  background: url(images/vertClair.jpg);
+  background-size: cover;
+}
+
+.project6:hover {
+  background: url(images/sansVertClair.jpg);
+  background-size: cover;
+}
+
+.project7 {
+  background: url(images/rouge2.jpg);
+  background-size: cover;
+}
+
+.project7:hover {
+  background: url(images/sansRouge2.jpg);
+  background-size: cover;
+}
+
+.project8 {
+  background: url(images/vert.jpg);
+  background-size: cover;
+}
+
+.project8:hover {
+  background:  url(images/sansVert.jpg);
+  background-size: cover;
+}
+
+.project9 {
+  background: url(images/bleuClair.jpg);
+  background-size: cover;
+}
+
+.project9:hover {
+  background: url(images/sansBleuClair.jpg);
+  background-size: cover;
+}
+.mail-button {
+  background: rgb(171, 205, 228);
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  margin-top: 30px;
+  padding: 10px 30px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #000;
+}
+
+
+ .black{
+    color: #000;
+    font-size: 1.3rem;
+    margin: 30px;
+    padding-bottom: 10px 30px;
+    
+ }
+ .background {
+  text-align: center;
+  background-color: #ffffff70;
+  color: #000;
+  
+ }
+  
+  ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 30px;
+    padding-top: 10px 30px;
+ } 
+ 
+ img {
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+ }
+ img:hover{
+  transform: scale(1.5);
+  transition: 0.1s;
+ }
+  footer {
+    background: #0055ff70;
+    color: #fff;
+    margin-top: 30px;
+  padding: 10px 30px;
+ }
+
+.copyright {
+  width: 50%;
+  text-align: left;
+  color: #FFFAE1;
+  
+}
+
+  
+
